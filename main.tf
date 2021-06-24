@@ -11,5 +11,9 @@ terraform {
     random = {
       version = "~> 2.2"
     }
+    proxmox = {
+      source = "Telmate/proxmox"
+      version = "~> 2.6.1"
+    }
   }
 }
